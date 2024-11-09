@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        section{
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2{
+            color: #000;
+        }
+        .hero{
+            background: #0073e6;
+            padding: 90px 20px;
+            color: white;
+        }
+        
+        .hero .cta{
+            background: #ff5722;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+        .cta:hover{
+            background: #ff5622d6;
+        }
+
+        .features {
+    background-color: #f9f9f9;
+  }
+  
+  .feature-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .feature {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+  }
+        .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+        .testimonials{
+            background: #f0f0f0;
+        }
+        .testimonial{
+            font-style: italic;
+        }
+
+        .pricing{
+            background: #f9f9f9;
+            
+           
+        }
+        .pricing-plan{
+            display: inline-block;
+            margin: 10px 20x;
+            margin: 0px 10px;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .pricing-plan button{
+            color: white;
+            background-color: #0073e6;
+            border: none;
+            padding: 10px;
+        }
+        .pricing-plan button:hover{
+            background-color: #0364c4;
+            cursor: pointer;
+        }
+
+        footer{
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="hero">
+        <h2>Amazing Product</h2>
+    <p>Discover the features of benefits of our new product.</p>
+    <button class="cta">
+        Buy Now
+    </button>
+    </section>
+
+    <section class="features">
+        <h2>Product Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Feature One</h3>
+                <p>Brief description of feature one</p>
+            </div>
+
+            <div class="feature">
+                <h3>Feature Two</h3>
+                <p>Brief description of feature one</p>
+            </div>
+
+            <div class="feature">
+                <h3>Feature Tree</h3>
+                <p>Brief description of feature one</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <h2>Product Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://th.bing.com/th/id/OIP.LPg7ppRfMsHtv5YO1fESagHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain" alt="Product Image 1">
+            <img src="https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-screen-dims-and-brightens-with-wrist-motion-091019_inline.gif.large_2x.gif" alt="Product Image 2">
+            <img src="https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch_series_5-meridian-face-091019_carousel.jpg.small_2x.jpg" alt="Product Image 3">
+
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"This product changed my life!"</p>
+            <span>- Happy Customer</span>
+          </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>$19.99/month</p>
+            <button>Choose Basic</button>
+        </div>
+
+        <div class="pricing-plan">
+            <h3>Pro Plan</h3>
+            <p>$29.99/month</p>
+            <button>Choose Pro</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amazing Product. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>

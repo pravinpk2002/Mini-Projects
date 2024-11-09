@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .hero .cta {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .cta:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #f9f9f9;
+  }
+  
+  .feature-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .feature {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  /* Gallery Section */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f0f0f0;
+  }
+  
+  .testimonial {
+    font-style: italic;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-plan {
+    display: inline-block;
+    width: 200px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .pricing-plan button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
